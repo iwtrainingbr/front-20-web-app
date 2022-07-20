@@ -1,0 +1,22 @@
+{
+  "categorias": [
+    {
+      "nome": "Cafés",
+      "descricao": "Cafés e derivados",
+      "foto": "https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg",
+      "id": 1
+    },
+    {
+      "nome": "Achocolatados",
+      "descricao": "acholocatados e produtos derivados do cacau",
+      "foto": "https://www.infoescola.com/wp-content/uploads/2020/01/cacau-793125286.jpg",
+      "id": 9
+    },
+    {
+      "nome": "Cappuchinos",
+      "descricao": "ble ble ble",
+      "foto": "https://img.itdg.com.br/tdg/images/recipes/000/179/686/323731/323731_original.jpg",
+      "id": 10
+    }
+  ]
+}
