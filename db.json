@@ -1,12 +1,6 @@
 {
   "categorias": [
     {
-      "nome": "Cafés",
-      "descricao": "Cafés e derivados",
-      "foto": "https://www.civitatis.com/blog/wp-content/uploads/2021/11/cafe-granos.jpg",
-      "id": 1
-    },
-    {
       "nome": "Achocolatados",
       "descricao": "acholocatados e produtos derivados do cacau",
       "foto": "https://www.infoescola.com/wp-content/uploads/2020/01/cacau-793125286.jpg",
@@ -17,6 +11,60 @@
       "descricao": "ble ble ble",
       "foto": "https://img.itdg.com.br/tdg/images/recipes/000/179/686/323731/323731_original.jpg",
       "id": 10
+    },
+    {
+      "nome": "Refrescos",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 11
+    },
+    {
+      "nome": "Refrescos",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 12
+    },
+    {
+      "nome": "Refrescos",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 13
+    },
+    {
+      "nome": "Refrescos",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 14
+    },
+    {
+      "nome": "Refrescos 2",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 15
+    },
+    {
+      "nome": "Refrescos 2",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 16
+    },
+    {
+      "nome": "Refrescos 3",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 17
+    },
+    {
+      "nome": "Teste",
+      "descricao": "teste",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 18
+    },
+    {
+      "nome": "Teste 2",
+      "descricao": "Bla bla bla",
+      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
+      "id": 19
     }
   ]
 }
