@@ -37,6 +37,12 @@ function inserirCategoria() {
     });
 
     alert('Pronto, nova categoria adicionada');
+    buscarCategorias();
+
+   
+    document.querySelector('[data-bs-target="#add-categoria"]').dispatchEvent(
+        new Event('click')
+    );
 }
 
 function excluirCategoria(id) {
@@ -50,28 +56,34 @@ function excluirCategoria(id) {
 
     //recarregar a página
     alert('Pronto, categoria excluida');
+
 }
 
-fetch('http://localhost:9000/categorias')
-    .then(resposta => resposta.json())
-    .then(categorias => {
-        categorias.map(cadaCategoria => {
-            TABELA_CATEGORIAS.innerHTML += `
-                <tr>
-                    <td>${cadaCategoria.id}</td>
-                    <td>${cadaCategoria.nome}</td>
-                    <td>${cadaCategoria.descricao}</td>
-                    <td>
-                        <a onclick="abrirImagem('${cadaCategoria.foto}')" href="#" data-bs-toggle="modal" data-bs-target="#modal-foto">
-                            <img src="${cadaCategoria.foto}" width="100px">
-                        </a>
-                    </td>
-                    <td>
-                        <button class="btn btn-warning btn-sm">Editar</button>
-                        <button onclick="excluirCategoria(${cadaCategoria.id})" class="btn btn-danger btn-sm">Excluir</button>
-                    </td>
-                </tr>
-            `;
-        });
-    });
+function buscarCategorias() {
+    TABELA_CATEGORIAS.innerHTML = '';
 
+    fetch('http://localhost:9000/categorias')
+        .then(resposta => resposta.json())
+        .then(categorias => {
+            categorias.map(cadaCategoria => {
+                TABELA_CATEGORIAS.innerHTML += `
+                    <tr>
+                        <td>${cadaCategoria.id}</td>
+                        <td>${cadaCategoria.nome}</td>
+                        <td>${cadaCategoria.descricao}</td>
+                        <td>
+                            <a onclick="abrirImagem('${cadaCategoria.foto}')" href="#" data-bs-toggle="modal" data-bs-target="#modal-foto">
+                                <img src="${cadaCategoria.foto}" width="100px">
+                            </a>
+                        </td>
+                        <td>
+                            <button class="btn btn-warning btn-sm">Editar</button>
+                            <button onclick="excluirCategoria(${cadaCategoria.id})" class="btn btn-danger btn-sm">Excluir</button>
+                        </td>
+                    </tr>
+                `;
+            });
+        });
+}
+
+buscarCategorias();
