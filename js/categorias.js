@@ -56,7 +56,7 @@ function excluirCategoria(id) {
 
     //recarregar a página
     alert('Pronto, categoria excluida');
-
+    buscarCategorias();
 }
 
 function buscarCategorias() {
