@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+    </head>
+    <body class="container" style="background-color: #DEDEDE;">
+        <section class="card card-body mt-5">
+
+            <h1>Gerenciar Produtos</h1>
+            <hr>
+
+            <div id="notificacoes">
+
+            </div>
+
+            <div class="text-end mb-3">
+                <button data-bs-toggle="collapse" data-bs-target="#add-produto" class="btn btn-outline-primary">
+                    Novo Produto
+                </button>
+            </div>
+
+            <div class="collapse mb-3 row" id="add-produto">
+                <div class="col-md-6 offset-md-6">
+                    <article class="card card-body bg-light">
+                        <form id="form_add_produto" onsubmit="inserirProduto()">
+                            <label for="nome">Nome</label>
+                            <input id="nome" type="text" class="form-control mb-3">
+
+                            <label for="categoria">Categoria</label>
+                            <input id="categoria" type="text" class="form-control mb-3">
+
+                            <label for="descricao">Descrição</label>
+                            <input id="descricao" type="text" class="form-control mb-3">
+                            
+                            <button class="btn btn-primary"> Enviar </button>
+                        </form>
+                    </article>
+                </div>
+            </div>
+
+            <input type="text" id="busca" onkeyup="filtrar()" placeholder="Pesquisar" class="form-control mb-2">
+
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#ID</th>
+                        <th>Nome</th>
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-produtos">
+
+                </tbody>
+            </table>
+        </section>
+        
+        
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="js/produtos.js"></script>
+
+    </body>
+</html>

@@ -1,58 +1,36 @@
 {
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Café Santa Clara",
+      "descricao": "250g",
+      "categoria": "Cafés"
+    },
+    {
+      "id": 2,
+      "nome": "Café Santa Clara 2",
+      "descricao": "250g",
+      "categoria": "Cafés"
+    }
+  ],
   "categorias": [
     {
-      "nome": "Achocolatados",
-      "descricao": "acholocatados e produtos derivados do cacau",
-      "foto": "https://www.infoescola.com/wp-content/uploads/2020/01/cacau-793125286.jpg",
-      "id": 9
-    },
-    {
-      "nome": "Cappuchinos",
-      "descricao": "ble ble ble",
-      "foto": "https://img.itdg.com.br/tdg/images/recipes/000/179/686/323731/323731_original.jpg",
-      "id": 10
-    },
-    {
       "nome": "Refrescos",
       "descricao": "Bla bla bla",
       "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 11
+      "id": 1
     },
     {
-      "nome": "Refrescos",
-      "descricao": "Bla bla bla",
+      "nome": "Cafés",
+      "descricao": "Produtos com cafeina",
       "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 12
+      "id": 2
     },
     {
-      "nome": "Refrescos",
-      "descricao": "Bla bla bla",
-      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 13
-    },
-    {
-      "nome": "Refrescos",
-      "descricao": "Bla bla bla",
-      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 14
-    },
-    {
-      "nome": "Refrescos 2",
-      "descricao": "Bla bla bla",
-      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 15
-    },
-    {
-      "nome": "Refrescos 2",
-      "descricao": "Bla bla bla",
-      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 16
-    },
-    {
-      "nome": "Refrescos 3",
-      "descricao": "Bla bla bla",
-      "foto": "https://st.depositphotos.com/1692343/4565/i/600/depositphotos_45656121-stock-photo-assorted-organic-craft-sodas.jpg",
-      "id": 17
+      "nome": "",
+      "descricao": "",
+      "foto": "",
+      "id": 3
     }
   ]
 }
